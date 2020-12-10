@@ -37,10 +37,11 @@ body {
 }
 
 header {
-  background: #ffffff;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
+
+  background: #ffffff;
 }
 
 footer {
@@ -52,6 +53,7 @@ ul {
   margin: 0;
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -90,14 +92,17 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .logo-header {
   color: #000000;
 }
+
 .logo-footer {
   color: var(--hero-title-color);
 }
 
 /* site-naw */
+
 .site-naw {
   display: flex;
   margin-left: 93px;
@@ -116,10 +121,12 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--title-text-color);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .site-naw .link:hover,
 .site-naw .link:focus,
 .site-naw .link.current {
@@ -135,10 +142,12 @@ img {
   left: 0;
   bottom: 0;
   content: "";
+
   display: block;
   width: 100%;
   height: 4px;
   border-radius: 2px;
+
   background: var(--accent-color);
 }
 
@@ -162,9 +171,11 @@ img {
 .contacts {
   display: flex;
   align-items: center;
-  color: var(--primary-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+
+  color: var(--primary-text-color);
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -187,6 +198,7 @@ img {
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+
   background: #2f303a;
   background-image: linear-gradient(
       to right,
@@ -202,6 +214,7 @@ img {
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
+
   color: var(--hero-title-color);
   font-weight: 900;
   font-size: 44px;
@@ -210,6 +223,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .button-hero {
   margin-left: auto;
   margin-right: auto;
@@ -230,11 +244,13 @@ img {
 }
 
 /* section benefits */
+
 .benefits,
 .preview,
 .portfolio {
   background: #ffffff;
 }
+
 .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -253,9 +269,9 @@ img {
   height: 120px;
   padding: 25px 100px;
   margin-bottom: 30px;
+  border-radius: 4px;
 
   background: #f5f4fa;
-  border-radius: 4px;
 }
 
 .benefits-icon {
@@ -271,6 +287,7 @@ img {
 .benefits h3 {
   margin-top: 0;
   margin-bottom: 10;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -278,10 +295,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .benefits p {
   margin-top: 0;
   margin-bottom: 0;
   width: 270px;
+
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -300,6 +319,7 @@ img {
 .clients h2 {
   margin-top: 0;
   margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -324,6 +344,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -331,13 +352,14 @@ img {
   margin-bottom: 0;
   width: 100%;
   height: 70px;
+
+  color: var(--hero-title-color);
+  background: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--hero-title-color);
-  background: rgba(47, 48, 58, 0.8);
 }
 
 /* section command */
@@ -345,6 +367,7 @@ img {
 .command {
   padding-top: 94px;
   padding-bottom: 94px;
+
   background: #f5f4fa;
 }
 
@@ -354,11 +377,13 @@ img {
 
 .command-item .item {
   padding-bottom: 30px;
-  background: #ffffff;
   overflow: hidden;
+  border-radius: 0px 0px 4px 4px;
+
+  background: #ffffff;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .command-item .item:not(:last-child) {
@@ -368,6 +393,7 @@ img {
 .command h3 {
   margin-top: 30px;
   margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -378,6 +404,7 @@ img {
 .command p {
   margin-top: 0;
   margin-bottom: 16px;
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -398,7 +425,9 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
   color: var(--svg-color);
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -409,6 +438,7 @@ img {
 .social-networks-icon {
   width: 20px;
   height: 20px;
+
   fill: currentColor;
 }
 
@@ -441,7 +471,9 @@ img {
   height: 90px;
   border: 1px solid;
   border-radius: 4px;
+
   color: var(--svg-color);
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -463,20 +495,16 @@ img {
 
 .portfolio-button {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
+  margin-bottom: 50px;
 }
-
-/*.button {
-  border: 0;
-}*/
 
 .button {
   padding: 6px 22px;
   border-radius: 4px;
   border: 0;
+
   background: #f5f4fa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--title-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -484,6 +512,8 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -526,6 +556,7 @@ img {
   margin-bottom: 30px;
   /* padding-bottom: 20px; */
   overflow: hidden;
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -550,30 +581,33 @@ img {
 
 .portfolio-overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
   bottom: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+
   background: rgba(33, 150, 243, 0.9);
+
   transform: translateY(+100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text {
   position: absolute;
-  display: inline-block;
-  margin: 0;
-  width: 322px;
-  height: 168px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+  display: inline-block;
+  margin: 0;
+  width: 322px;
+  height: 168px;
+
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: #ffffff;
 }
 
 .portfolio-link:hover .portfolio-overlay,
@@ -585,16 +619,19 @@ img {
   margin-top: 0;
   margin-bottom: 4px;
   /* margin-left: 24px; */
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .subtitle {
   margin-top: 0;
   margin-bottom: 0;
   /* margin-left: 24px; */
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
@@ -610,6 +647,7 @@ footer {
 
 address {
   margin-top: 20px;
+
   color: var(--hero-title-color);
   font-style: normal;
   font-size: 14px;
@@ -622,8 +660,10 @@ address > a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 address a:hover,
 address a:focus {
   color: var(--accent-color);
@@ -648,13 +688,13 @@ address a:focus {
 .social-networks-footer p {
   margin-top: 0;
   margin-bottom: 20px;
+
+  color: var(--hero-title-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: var(--hero-title-color);
 }
 
 .networks {
@@ -672,7 +712,9 @@ address a:focus {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
   background-color: rgba(255, 255, 255, 0.1);
+
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -684,4 +726,40 @@ address a:focus {
 
 .networks-link:hover {
   background-color: var(--accent-color);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-width: 528px;
+  min-height: 581px;
+  border-radius: 4px;
+  padding: 8px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000 10 %;
+  border-radius: 50%;
 }
